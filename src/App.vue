@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Movies />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Movies from './components/Movies'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Movies
   }
 }
 </script>
